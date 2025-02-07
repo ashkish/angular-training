@@ -1,0 +1,13 @@
+Angular Setup:- 
+
+Prerequisites:-
+Node version: - ^18.19.1 or newer
+NPM package: - @angular/cli
+For windows run this command additionally:- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned.
+
+
+How to create Hello world simple basic Angular app?
+
+1:) Move to directory where need to create, and run command ng new <project_name>.
+2:) On completed, run npm run start from the root of the project.
+3:) On completed use the generated localhost link with port number and open in browser.

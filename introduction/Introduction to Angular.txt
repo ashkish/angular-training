@@ -1,0 +1,31 @@
+Introduction to Angular
+
+Angular was developed and is maintained by Google. It was created by a team of engineers at Google, led by Misko Hevery, and was first released as "AngularJS" in 2010.
+
+AngularJS (version 1.x) was introduced in 2010. In 2016, Angular 2 was released as a complete rewrite of AngularJS. Since then, Angular has been updated regularly with new versions, on an average every within year. Current latest versions of angular is 19 active.
+
+Why was it introduced? 
+Angular was created to address the challenges in building dynamic web applications. The primary reasons for its introduction were:
+
+1:) Simplified Development: It provided a framework that made it easier to build rich, single-page applications (SPAs).
+2:) MVC Architecture: Angular follows a Model-View-Controller (MVC) design pattern, which helps organize code more efficiently.
+3:) Two-way Data Binding: This feature automatically updates the view whenever the model changes and vice versa, making data management smoother.
+4:) Reusability: Components in Angular can be reused, allowing developers to build scalable applications efficiently.
+5:) Dependency Injection: Angular introduced dependency injection for easier testing and better component interaction.
+6:) Rich Ecosystem: Angular offers a comprehensive set of tools, including CLI (Command Line Interface), which streamlines tasks like testing, building, and deploying.
+
+Angular vs React:
+
+Architecture: Angular is a full-fledged framework, while React is a library focused on building UI components.
+Learning Curve: Angular has a steeper learning curve due to its large set of features and complete structure. React, being simpler, has a gentler learning curve.
+State Management: Angular has built-in solutions for state management, while React relies on external libraries like Redux.
+Performance: React has better performance in many cases because it focuses on the view layer, but Angular is highly optimized with features like change detection.
+
+Why should we use Angular?
+
+Comprehensive Framework: Angular provides a complete package, offering everything from routing and form handling to HTTP requests, making it a one-stop solution for building modern web applications.
+Strong Community and Google Support: Angular has a large community and strong backing from Google, ensuring consistent updates, bug fixes, and long-term support.
+TypeScript: Angular is built with TypeScript, which offers better tooling, enhanced code quality, and debugging capabilities.
+Modular and Scalable: Angular's component-based architecture allows for reusable, modular code, making it scalable for large applications.
+Built-in Tools: Angular comes with its own CLI, which simplifies many tasks like scaffolding, testing, and building, saving developers time.
+Enterprise-Level Applications: Angular is widely used for building complex, enterprise-level applications due to its robustness and scalability.
