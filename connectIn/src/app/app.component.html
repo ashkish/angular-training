@@ -1,4 +1,14 @@
+<header>
+  <nav>
+    <ul>
+      <li><a routerLink="/login" routerLinkActive="active" >Login</a></li>
+      <li><a routerLink="/search" routerLinkActive="active">Search</a></li>
+      <li><a routerLink="/dependencyInject" routerLinkActive="active">DependencyInject</a></li>
+    </ul>
+  </nav>
+</header>
 <main>
-  <!-- <app-landing></app-landing> -->
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
 </main>
-<router-outlet></router-outlet>

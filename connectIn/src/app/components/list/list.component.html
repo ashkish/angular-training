@@ -1,0 +1,11 @@
+<section>
+  <div>
+    <button (click)="handleLocalData()">Get Local Parent data</button>
+    <button (click)="handleApiData()">GetProductDataApi</button>
+  </div>
+  <div>
+    <ul>
+      <li *ngFor="let item of listData">{{item.title}}</li>
+    </ul>
+  </div>
+</section>

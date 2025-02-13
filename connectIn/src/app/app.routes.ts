@@ -1,15 +1,30 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
-import { LandingComponent } from './components/landing/landing.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: AppComponent
+    pathMatch: 'full',
+    redirectTo: 'login',
   },
   {
     path: 'login',
-    component: LoginComponent
-  }
+    pathMatch: 'full',
+    loadComponent() {
+        return import('./components/login/login.component').then((m) => m.LoginComponent);
+    },
+  },
+  {
+    path: 'search',
+    pathMatch: 'full',
+    loadComponent() {
+        return import('./components/search/search.component').then((m) => m.SearchComponent);
+    },
+  },
+  {
+    path: 'dependencyInject',
+    pathMatch: 'full',
+    loadComponent() {
+        return import('./components/list/list.component').then((m) => m.ListComponent);
+    },
+  },
 ];

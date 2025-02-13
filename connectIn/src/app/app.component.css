@@ -1,0 +1,44 @@
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+nav ul li {
+  color: white;
+  cursor: pointer;
+  padding: 10px 0px;
+  margin: 5px;
+  list-style-type: none;
+}
+
+nav ul li:hover {
+  background-color: #555;
+  transition: background-color 0.3s;
+}
+
+nav ul li a.active {
+  background-color: #f0a500;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: color 0.3s;  
+}

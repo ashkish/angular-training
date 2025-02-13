@@ -1,0 +1,11 @@
+<div class="search-nav" role="search">
+  <div class="search">
+    <h4 id="autocomplete-label">Autocomplete Search Functionality</h4>
+    <input type="text" (input)="onSearch($event)" name="search" aria-labelledby="autocomplete-label" aria-autocomplete="list" aria-controls="search-items" aria-expanded="true">
+  </div>
+  <div>
+    <ul class="search-items" id="search-items" role="listbox" (click)="onListItemClick($event)">
+      <li *ngFor="let item of filteredData" [innerHtml]="highlightText(item)" role="option"></li>
+    </ul>
+  </div>
+</div>
