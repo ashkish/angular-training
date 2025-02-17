@@ -6,4 +6,8 @@
     <input type="password" formControlName="password" name="password">
     <button class="login-button" type="submit">Login</button>
   </form>
+  <button class="login-auth0" (click)="loginWithAuth0()">Login with Auth0</button>
+  <div *ngIf="loading" class="loading-overlay">
+    <app-loading></app-loading>
+  </div>
 </section>
